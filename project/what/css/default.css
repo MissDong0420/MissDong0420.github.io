@@ -1,0 +1,62 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+body {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Microsoft YaHei";
+}
+#wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -250px;
+    width: 500px;
+    height: 120px;
+    text-align: center;
+}
+#wrapper h1 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff
+}
+#wrapper h1 b{
+    font-weight: 700;
+}
+#start,#stop {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(left,#66b5f2, #5187f5); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,#66b5f2, #5187f5); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,#66b5f2, #5187f5); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,#66b5f2, #5187f5); /* 标准的语法 */
+    color: #fff;
+}
+#cfg {
+    color: #666;
+    text-shadow: 1px 1px 1px #eee;
+    font-size: 12px;
+    cursor: pointer;
+}
+.temp {
+    position: absolute;
+    z-index: 5;
+    color: #fff;
+}
+
